@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/businessFragment"
+        android:icon="@drawable/business_svg"
+        android:title="Business" />
+
+    <item
+        android:id="@+id/scienceFragment"
+        android:icon="@drawable/science_svg"
+        android:title="Science" />
+
+    <item
+        android:id="@+id/sportsFragment"
+        android:icon="@drawable/sports_svg"
+        android:title="Sports" />
+
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/businessFragment">
+    <fragment
+        android:id="@+id/scienceFragment"
+        android:name="com.example.githubapi.fragments.ScienceFragment"
+        android:label="Science"
+        tools:layout="@layout/fragment_science" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.githubapi.fragments.BusinessFragment"
+        android:label="Business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.githubapi.fragments.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports" />
+</navigation>
